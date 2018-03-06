@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        >
+    <item
+        android:id="@+id/itHomePage"
+        android:title="@string/Homepage"
+        android:icon="@drawable/trangchu"
+        android:checked="true" />
+
+    <item
+        android:title="@string/Menu"
+        android:icon="@drawable/logodangnhap"
+    />
+
+    <item
+        android:title="@string/Employee"
+        android:icon="@drawable/nhanvien"
+        />
+
+    <item
+        android:title="@string/Report"
+        android:icon="@drawable/thongke"
+        />
+
+    <item
+        android:title="@string/Setting"
+        android:icon="@drawable/caidat"
+        />
+    </group>
+</menu>

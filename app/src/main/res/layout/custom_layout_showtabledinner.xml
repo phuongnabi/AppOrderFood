@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtTableDinnerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_10dp"
+        android:textSize="@dimen/size18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorGrey"
+
+        />
+    
+    <ImageView
+        android:id="@+id/imTableDinner"
+        android:layout_width="@dimen/size100dp"
+        android:layout_height="@dimen/size100dp"
+        android:src="@drawable/banan"
+        android:layout_below="@id/txtTableDinnerName"
+        />
+
+    <ImageView
+        android:id="@+id/imOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/thanhtoan"
+        android:layout_below="@id/imTableDinner"
+        android:layout_margin="@dimen/size5dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:id="@+id/imPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/goimon"
+        android:layout_below="@id/imTableDinner"
+        android:layout_toRightOf="@+id/imOrder"
+        android:layout_margin="@dimen/size5dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:id="@+id/imHide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/anbutton"
+        android:layout_below="@id/imTableDinner"
+        android:layout_toRightOf="@+id/imPayment"
+        android:layout_margin="@dimen/size5dp"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

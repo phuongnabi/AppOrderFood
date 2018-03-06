@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorGrey">#CCC</color>
+    <color name="colorBgButtonGreen">#43A047</color>
+    <color name="colorBgButtonOrange">#EF6C00</color>
+    <color name="colorBgLogin">#68992e</color>
+    <color name="colorRed">#e40404</color>
+    <color name="colorBgToolbar">#d77a09</color>
+</resources>

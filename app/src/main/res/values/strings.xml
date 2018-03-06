@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AppOrderFood</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="birthDay">Birthday</string>
+    <string name="idCard">Id Card</string>
+    <string name="OK_text">OK</string>
+    <string name="Exit_text">Exit</string>
+    <string name="Register">Register Account</string>
+    <string name="ErrorEnterUserName">Pleas Enter the username</string>
+    <string name="ErrorEnterThePassword">Please Enter the Password</string>
+    <string name="AddEmployeeSuccess">Add Employee Successfully</string>
+    <string name="AddEmployeeFail">Add Employee Fail</string>
+    <string name="Login">LOGIN</string>
+
+    <string name="Homepage">Home Page</string>
+    <string name="Menu">Menu</string>
+    <string name="Employee">Employee</string>
+    <string name="Setting">Setting</string>
+    <string name="Report">Report</string>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+    <string name="AddTableDinner">Add table</string>
+    <string name="NameTableDinner">Name table</string>
+    <string name="AddSuccessfull">Add Successfull</string>
+    <string name="AddFail">Add Fail</string>
+</resources>

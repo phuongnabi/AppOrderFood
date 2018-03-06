@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/edAddNameTablerDinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size_10dp"
+        android:hint="@string/NameTableDinner"
+        android:textColorHint="@color/colorGrey"
+        android:textColor="@color/colorGrey"
+        android:layout_margin="@dimen/size_10dp"
+        />
+    <Button
+        android:id="@+id/btnOkAddTableDinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/OK_text"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
